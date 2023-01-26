@@ -28,9 +28,22 @@ Print the predicted output.
 
 ## PROGRAM:
 ```
+'''
+developed by : Tejusve Kabeer.F
+reference.no : 22002543
+'''
+import pandas as pd
+df = pd.read_csv('rd.csv/nba.csv')
+print(df.head(10))
+print(df.tail())
+print("Number of rows:",len(df.axes[0]))
+print("Number of columns:",len(df.axes[1]))
 
 ```
 
 ## OUTPUT:
+![readcsv](https://user-images.githubusercontent.com/118364993/214817019-9ec65ba6-d1fc-4c9f-ac47-18ab649f86a0.png)
+
 
 ## RESULT:
+Thus a python program is written to read the contents of a CSV file.
